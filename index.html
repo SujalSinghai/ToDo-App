@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a  href="#"><img src="logoo-removebg-preview.png" class="logo"></a>
+        <h3 id="text">todist</h3>
+       
+        <div>
+            <ul id="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">About US</a></li>
+                <li><a href="">Contact</a></li>
+                <li id="lg-bag"><a href=""><i class="far fa-shopping-bag"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="backg">
+        <div class="form">
+            <input type="text" id="titlee" name="" placeholder="Title"><br>
+            <textarea id="sortd" name="w3review" rows="4" cols="50" placeholder="Description"></textarea>
+            <button onclick="Add()" class="white"  >Submit</button>
+        </div>
+        <div class="output">
+            <table class="table" style="width:100%">
+                <tr>
+                  <th>Title</th>
+                  <th>Description</th>
+                  <th>Delete</th>
+                </tr>
+              </table>
+              <div id="todo">
+               
+              </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
